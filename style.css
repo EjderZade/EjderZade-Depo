@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7981ae;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(3rem, 12vw, 9rem);
+  font-weight: 900;
+  text-align: center;
+  animation: rengDeyis 5s linear infinite;
+}
+
+@keyframes rengDeyis {
+  0% {
+    color: #ff4d6d;
+    text-shadow: 0 0 20px #ff4d6d;
+  }
+  25% {
+    color: #ffb703;
+    text-shadow: 0 0 20px #ffb703;
+  }
+  50% {
+    color: #4cc9f0;
+    text-shadow: 0 0 20px #4cc9f0;
+  }
+  75% {
+    color: #c77dff;
+    text-shadow: 0 0 20px #c77dff;
+  }
+  100% {
+    color: #ff4d6d;
+    text-shadow: 0 0 20px #ff4d6d;
+  }
+}
