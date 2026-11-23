@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #111;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px ;
+}
+
+.logo {
+  color: #315d20;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+nav a {
+  color: #111;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.basket,
+.button {
+  background: #315d20;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 5px;
+}
+
+main h1 {
+  margin: 100px 20px 30px;
+  text-align: center;
+  font: normal 42px Georgia, serif;
+}
+
+.button {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.photos {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin: 100px 6%;
+}
+
+.photos img {
+  width: 47%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.about {
+  margin: 80px 6%;
+  max-width: 700px;
+}
+
+.about h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.about p {
+  line-height: 1.6;
+}
+
